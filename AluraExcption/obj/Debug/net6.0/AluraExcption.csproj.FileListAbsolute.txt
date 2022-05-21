@@ -1,0 +1,15 @@
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\bin\Debug\net6.0\AluraExcption.exe
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\bin\Debug\net6.0\AluraExcption.deps.json
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\bin\Debug\net6.0\AluraExcption.runtimeconfig.json
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\bin\Debug\net6.0\AluraExcption.dll
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\bin\Debug\net6.0\AluraExcption.pdb
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.csproj.AssemblyReference.cache
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.AssemblyInfoInputs.cache
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.AssemblyInfo.cs
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.dll
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\refint\AluraExcption.dll
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.pdb
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\AluraExcption.genruntimeconfig.cache
+C:\Users\lucas\source\repos\AluraExcption\AluraExcption\obj\Debug\net6.0\ref\AluraExcption.dll

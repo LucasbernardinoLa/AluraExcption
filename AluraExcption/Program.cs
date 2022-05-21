@@ -1,2 +1,71 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using AluraExcption;
+
+try
+{
+    CarregarContas();
+}
+catch (Exception)
+{
+    Console.WriteLine("CATCH NO METODO MAIN");
+}
+
+Console.WriteLine("Execução finalizada. Tecle enter para sair");
+Console.ReadLine();
+
+TestaInnerException();
+        
+static void CarregarContas()
+{
+    using (LeitorDeArquivo leitor = new LeitorDeArquivo("teste.txt"))
+    {
+        leitor.LerProximaLinha();
+    }
+}
+
+static void TestaInnerException()
+{
+    try
+    {
+        ContaCorrente conta1 = new ContaCorrente(4564, 789684);
+        ContaCorrente conta2 = new ContaCorrente(7891, 456794);
+
+        conta1.Transferir(10000, conta2);
+        conta1.Sacar(10000);
+    }
+    catch (OperacaoFinanceiraException e)
+    {
+        Console.WriteLine(e.Message);
+        Console.WriteLine(e.StackTrace);
+
+        // Console.WriteLine("Informações da INNER EXCEPTION (exceção interna):");
+
+    }
+}
+
+// Teste com a cadeia de chamada:
+// Metodo -> TestaDivisao -> Dividir
+
+static void Metodo()
+{
+    TestaDivisao(0);
+}
+
+static void TestaDivisao(int divisor)
+{
+    int resultado = Dividir(10, divisor);
+    Console.WriteLine("Resultado da divisão de 10 por " + divisor + " é " + resultado);
+}
+
+ static int Dividir(int numero, int divisor)
+{
+    try
+    {
+        return numero / divisor;
+    }
+    catch (DivideByZeroException)
+    {
+        Console.WriteLine("Exceção com numero=" + numero + " e divisor=" + divisor);
+        throw;
+        Console.WriteLine("Código depois do throw");
+    }
+}
